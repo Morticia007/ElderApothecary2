@@ -81,3 +81,16 @@ body {
         padding: 0;
     }
 }
+
+.navbar-brand span {
+    color: #b4bbb9;
+}
+
+.breadcrumb {
+    background-attachment: fixed;
+    background-color: #607770;
+}
+
+#hb {
+    color: #063a29;
+}
