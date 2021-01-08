@@ -1,5 +1,5 @@
 body {
-    background: #e2e2e2;
+    background-color: #535756;
 }
 
 
@@ -41,6 +41,7 @@ section {
 
 #footer .nav-link:hover {
     text-decoration: underline;
+    color: #007bff;
 }
 
 footer .form-control {
@@ -169,7 +170,7 @@ footer .form-control {
 }
 
 .navbar {
-    border-bottom: 2px solid #115a38;
+    border-bottom: 2px solid #063a29;
 }
 
 .navbar-brand span {
@@ -190,7 +191,7 @@ footer .form-control {
 }
 
 .navbar-brand span {
-    color: #89969e;
+    color: #063a29;
 }
 
 #navbar-call i {
@@ -231,6 +232,11 @@ footer .form-control {
     color: #fff;
 }
 
+.image-cards {
+    padding: 0%;
+    background: #063a29;
+}
+
 
 /* image card with light backgrounds to have dark links */
 
@@ -252,10 +258,23 @@ footer .form-control {
     }
     #quote p {
         font-size: 3.5rem;
+        color: white;
     }
 }
 
 div#name {
     font-family: FontAwesome;
-    color: #063a29;
+    color: #89969e;
+}
+
+#h5.card-title {
+    color: #08eea1;
+}
+
+.card-image-overlay {
+    text-shadow: #007BFF;
+}
+
+.container-fluid {
+    background-color: #0a0a0a;
 }
