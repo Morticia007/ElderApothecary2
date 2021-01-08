@@ -243,8 +243,6 @@ footer .form-control {
     color: inherit;
 }
 
-#quote {}
-
 #quote p {
     font-size: 2.5rem;
 }
@@ -292,4 +290,8 @@ div#name {
 
 #li.breadcrumb-item {
     color: Black;
+}
+
+section#brand-message {
+    background-color: #607770;
 }
