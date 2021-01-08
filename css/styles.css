@@ -29,7 +29,7 @@ section {
 }
 
 #footer {
-    background-color: #292b2c;
+    background-color: #484a4b;
     color: #808080;
 }
 
@@ -170,7 +170,7 @@ footer .form-control {
 }
 
 .navbar {
-    border-bottom: 2px solid #063a29;
+    border-bottom: 2px solid #1a3f33;
 }
 
 .navbar-brand span {
@@ -187,11 +187,11 @@ footer .form-control {
 }
 
 .navbar {
-    border-bottom: 2px solid #063a29;
+    border-bottom: 2px solid #b9bebd;
 }
 
 .navbar-brand span {
-    color: #063a29;
+    color: #b4bbb9;
 }
 
 #navbar-call i {
@@ -221,7 +221,7 @@ footer .form-control {
     display: inline-block;
     padding: .5em 0;
     line-height: 2rem;
-    color: #0d4122;
+    color: #16241c;
 }
 
 
@@ -234,7 +234,6 @@ footer .form-control {
 
 .image-cards {
     padding: 0%;
-    background: #063a29;
 }
 
 
@@ -276,5 +275,16 @@ div#name {
 }
 
 .container-fluid {
-    background-color: #0a0a0a;
+    background-color: #58595a;
+}
+
+.breadcrumb {
+    background-attachment: fixed;
+    background-color: #063a29;
+}
+
+.blockquote {}
+
+#li.breadcrumb-item {
+    color: Black;
 }
