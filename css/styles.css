@@ -243,9 +243,7 @@ footer .form-control {
     color: inherit;
 }
 
-#quote {
-    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11903964.jpgg');
-}
+#quote {}
 
 #quote p {
     font-size: 2.5rem;
@@ -253,7 +251,12 @@ footer .form-control {
 
 @media (min-width: 600px) {
     #quote {
-        background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11903964.jpg');
+        background-image: url(../img/jessica-delp-YctCkIta_8k-unsplash.jpg)
+    }
+    @media only screen and (max-width: 490px) {
+        h1 {
+            color: green;
+        }
     }
     #quote p {
         font-size: 3.5rem;
@@ -280,10 +283,12 @@ div#name {
 
 .breadcrumb {
     background-attachment: fixed;
-    background-color: #063a29;
+    background-color: #607770;
 }
 
-.blockquote {}
+#hb {
+    color: #063a29;
+}
 
 #li.breadcrumb-item {
     color: Black;
