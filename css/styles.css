@@ -295,3 +295,58 @@ div#name {
 section#brand-message {
     background-color: #607770;
 }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .navbar-text {
+        overflow-wrap: break-word;
+    }
+}
+
+span.text {
+    float: left;
+    margin-right: 30px;
+}
+
+span.text p {
+    margin-top: 15px!important;
+}
+
+.navbar-toggle .icon-bar {
+    margin-left: auto;
+    margin-top none !important;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow-x: hidden !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    @media screen and (max-width: 600px) {
+        img.content {
+            width: 80%;
+            border: #01009C 1px solid;
+            display: block;
+            margin: 0 auto;
+            vertical-align: middle !important;
+        }
+    }
+}
