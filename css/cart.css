@@ -337,3 +337,355 @@ body {
     padding: 20px;
     font-weight: 400;
 }
+
+body {
+    background-color: #535756;
+}
+
+
+/* Set a display font for headings and quotes */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand,
+blockquote p,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#mission {
+    font: 100;
+    font-size: 100%;
+    color: white;
+}
+
+section {
+    overflow: hidden;
+}
+
+.blockquote-footer {
+    margin-top: 0.5rem;
+}
+
+#footer {
+    background-color: #484a4b;
+    color: #808080;
+}
+
+#footer a,
+#footer a:hover,
+#footer a:active {
+    color: #ccc;
+}
+
+#footer.nav-link:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+footer.form-control {
+    border: none;
+}
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* cards have a white background by default and this class helps you make them transparent */
+
+.bg-none {
+    background-color: transparent;
+}
+
+.text-light a {
+    color: #fff!important;
+}
+
+.bg-faded-1 {
+    background-color: #c5c8c9;
+}
+
+.bg-faded-1 {
+    background-color: #c5c8c9;
+}
+
+.bg-faded-2 {
+    background-color: #93989a;
+}
+
+.bg-faded-3 {
+    background-color: #585d5f;
+}
+
+.bg-faded-4 {
+    background-color: #3c3f40;
+}
+
+.bg-faded-5 {
+    background-color: #292b2c;
+}
+
+.img-border {
+    border: 1px solid #808080;
+}
+
+.img-border-t {
+    border-top: 1px solid #808080;
+}
+
+.img-border-r {
+    border-right: 1px solid #808080;
+}
+
+.img-border-b {
+    border-bottom: 1px solid #808080;
+}
+
+.img-border-l {
+    border-left: 1px solid #808080;
+}
+
+.overlay,
+.overlay {
+    position: relative;
+}
+
+.overlay:before,
+.overlay:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.overlay-b-1:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.overlay-b-2:before {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay-b-3:before {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay-b-4:before {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay-b-5:before {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-w-1:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.overlay-w-2:before {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.overlay-w-3:before {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.overlay-w-4:before {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.overlay-w-5:before {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar {
+    border-bottom: 2px solid #1a3f33;
+}
+
+.navbar-brand span {
+    color: #89969e;
+}
+
+#navbar-call i {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.fixedsticky {
+    top: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #b9bebd;
+}
+
+.navbar-brand span {
+    color: #b4bbb9;
+}
+
+#navbar-call i {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.fixedsticky {
+    top: 0;
+}
+
+.card.nav-item {
+    position: relative;
+}
+
+.card.nav-link:hover {
+    text-decoration: underline;
+}
+
+.card.nav-item:after {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: .5em 0;
+    line-height: 2rem;
+    color: #16241c;
+}
+
+
+/* image card with dark backgrounds to have white links */
+
+.card.bg-dark .nav-link,
+.card.bg-dark .nav-item:after {
+    color: #fff;
+}
+
+.image-cards {
+    padding: 0%;
+}
+
+
+/* image card with light backgrounds to have dark links */
+
+.card.bg-light a {
+    color: #607770;
+}
+
+.card.bg-light.mt-1.mb-1 {
+    background-color: #607770;
+}
+
+#quote p {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 600px) {
+    #quote {
+        background-image: url(../img/jessica-delp-YctCkIta_8k-unsplash.jpg)
+    }
+    @media only screen and (max-width: 490px) {
+        h1 {
+            color: green;
+        }
+    }
+    #quote p {
+        font-size: 3.5rem;
+        color: white;
+    }
+}
+
+div#name {
+    font-family: FontAwesome;
+    color: #89969e;
+}
+
+#h5.card-title {
+    color: #08eea1;
+}
+
+.card-image-overlay {
+    text-shadow: #007BFF;
+}
+
+.container-fluid {
+    background-color: #58595a;
+}
+
+.breadcrumb {
+    background-attachment: fixed;
+    background-color: #607770;
+}
+
+#hb {
+    color: #063a29;
+}
+
+#li.breadcrumb-item {
+    color: Black;
+}
+
+#brand-message {
+    background-color: #607770;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .navbar-text {
+        overflow-wrap: break-word;
+    }
+}
+
+span.text {
+    float: left;
+    margin-right: 30px;
+}
+
+span.text p {
+    margin-top: 15px!important;
+}
+
+.navbar-toggle .icon-bar {
+    margin-left: auto;
+    margin-top: none!important;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow-x: hidden !important;
+    }
+}
+
+div.footer {
+    background-color: #607770;
+    color: #808080;
+}

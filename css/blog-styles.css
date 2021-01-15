@@ -94,3 +94,28 @@ body {
 #hb {
     color: #063a29;
 }
+
+div#name {
+    font-family: FontAwesome;
+    color: #89969e;
+}
+
+.card.bg-dark .nav-link,
+.card.bg-dark .nav-item:after {
+    color: #fff;
+}
+
+#footer a,
+#footer a:hover,
+#footer a:active {
+    color: #ccc;
+}
+
+section#brand-message {
+    background-color: #607770;
+}
+
+div.footer {
+    background-color: #607770;
+    color: #808080;
+}

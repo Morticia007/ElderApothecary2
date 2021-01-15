@@ -20,6 +20,12 @@ blockquote p,
     font-weight: 700;
 }
 
+#mission {
+    font: 100;
+    font-size: 100%;
+    color: white;
+}
+
 section {
     overflow: hidden;
 }
@@ -39,12 +45,12 @@ section {
     color: #ccc;
 }
 
-#footer .nav-link:hover {
+#footer.nav-link:hover {
     text-decoration: underline;
     color: #007bff;
 }
 
-footer .form-control {
+footer.form-control {
     border: none;
 }
 
@@ -203,15 +209,15 @@ footer .form-control {
     top: 0;
 }
 
-.card .nav-item {
+.card.nav-item {
     position: relative;
 }
 
-.card .nav-link:hover {
+.card.nav-link:hover {
     text-decoration: underline;
 }
 
-.card .nav-item:after {
+.card.nav-item:after {
     content: "\f054";
     font-family: FontAwesome;
     font-size: 60%;
@@ -240,7 +246,11 @@ footer .form-control {
 /* image card with light backgrounds to have dark links */
 
 .card.bg-light a {
-    color: inherit;
+    color: #607770;
+}
+
+.card.bg-light.mt-1.mb-1 {
+    background-color: #607770;
 }
 
 #quote p {
@@ -292,7 +302,7 @@ div#name {
     color: Black;
 }
 
-section#brand-message {
+#brand-message {
     background-color: #607770;
 }
 
@@ -320,7 +330,7 @@ span.text p {
 
 .navbar-toggle .icon-bar {
     margin-left: auto;
-    margin-top none !important;
+    margin-top: none!important;
 }
 
 @media screen and (max-width: 600px) {
@@ -349,4 +359,9 @@ span.text p {
             vertical-align: middle !important;
         }
     }
+}
+
+div.footer {
+    background-color: #607770;
+    color: #808080;
 }
